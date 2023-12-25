@@ -1,0 +1,60 @@
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f2f2f2; /* Arka plan rengi */
+    }
+
+    #container {
+      background-color: #fff; /* Ana konteyner arka plan rengi */
+      border-radius: 15px; /* Köşeleri radüslü yapma */
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    }
+
+    .card {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    #score {
+      font-size: 36px;
+      margin-top: 20px;
+      background-color: #fff; /* Skor arka plan rengi */
+      color: #000; /* Skor yazı rengi */
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #000; /* Siyah kenarlık */
+      border-radius: 5px;
+    }
+
+    #kartContainer {
+      display: flex;
+    }
+
+    #buttonContainer {
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 0 10px;
+      cursor: pointer;
+      background-color: #fff; /* Beyaz renk */
+      color: #000; /* Siyah renk */
+      border: 1px solid #000; /* Siyah kenarlık */
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #000; /* Siyah renk */
+      color: #fff; /* Beyaz renk */
+    }
