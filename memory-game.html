@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hafıza Oyunu</title>
+  <link rel="stylesheet" type="text/css" href="css/memory-game.css">
+</head>
+<body>
+
+  <div id="container">
+    <div id="kartContainer">
+      <div class="card" id="card1" onclick="cevirKarti('card1')">
+        <object type="image/svg+xml" data="images/B.svg" width="100" height="100"></object>
+      </div>
+
+      <div class="card" id="card2" onclick="cevirKarti('card2')">
+        <object type="image/svg+xml" data="images/E.svg" width="100" height="100"></object>
+      </div>
+
+      <div class="card" id="card3" onclick="cevirKarti('card3')">
+        <object type="image/svg+xml" data="images/I.svg" width="100" height="100"></object>
+      </div>
+
+      <div class="card" id="card4" onclick="cevirKarti('card4')">
+        <object type="image/svg+xml" data="images/Z.svg" width="100" height="100"></object>
+      </div>
+
+      <div class="card" id="card5" onclick="cevirKarti('card5')">
+        <object type="image/svg+xml" data="images/A.svg" width="100" height="100"></object>
+      </div>
+    </div>
+
+    <div id="score">Skor: 0</div>
+
+    <div id="buttonContainer">
+      <button onclick="oyunuBaslat()">OYUNU BAŞLAT</button>
+      <button onclick="oyunuYenidenBaslat()">OYUNU YENİLE</button>
+    </div>
+  </div>
+<script type="text/javascript" src="js/memory-game.js"></script>
+</body>
+</html>
